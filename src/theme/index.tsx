@@ -144,8 +144,8 @@ export const espresso: Theme = {
 
 export const coal: Theme = {
   primary: '#FFF',
-  secondary: '#A9A9A9',
-  interactive: '#000',
+  secondary: '#ffffff',
+  interactive: '#4E4E5A',
   container: '#4E4E5A',
   module: '#222633',
   accent: '#71FF98',
@@ -202,9 +202,12 @@ export const scifi: Theme = {
   module: '#0e0f12',
   outline: '#42ecf5',
   dialog: '#20252e',
+  accent: '#379ea3',
   onAccent: '#42ecf5',
   onInteractive: '#42ecf5',
   fontFamily: 'Verdana',
+  deepShadow: 'hsla(0, 0%, 0%, 0.32), hsla(0, 0%, 0%, 0.24), hsla(0, 0%, 0%, 0.24)',
+  networkDefaultShadow: 'hsla(221, 96%, 64%, 0.16)',
   borderRadius: {
     large: 0.6,
     medium: 0.5,
