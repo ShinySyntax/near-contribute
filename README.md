@@ -49,6 +49,11 @@ In this version it was updated with additional built-in theme styles that can pl
 ![swap widget screenshot](./screenshot/Screenshot_14.png)
 ![swap widget screenshot](./screenshot/Screenshot_13.png)
 
+### Classic Theme
+
+![swap widget screenshot](./screenshot/Screenshot_16.png)
+![swap widget screenshot](./screenshot/Screenshot_15.png)
+
 You can customize the theme (colors, fonts, border radius, and more) to match the style of your application. You can also configure your own default token list and optionally set a convenience fee on swaps executed through the widget on your site.
 
   
