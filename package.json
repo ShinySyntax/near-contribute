@@ -1,8 +1,8 @@
 {
-  "name": "@uniswap/widgets",
-  "description": "Uniswap Interface",
-  "homepage": "https://github.com/Uniswap/widgets#readme",
-  "repository": "https://github.com/Uniswap/widgets",
+  "name": "uniswap-widget",
+  "description": "Uniswap Interface Extension Version",
+  "homepage": "https://github.com/formysister/uniswap-widget#readme",
+  "repository": "https://github.com/formysister/uniswap-widget",
   "files": [
     "dist"
   ],
