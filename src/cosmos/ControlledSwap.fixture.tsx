@@ -1,6 +1,6 @@
 import { tokens } from '@uniswap/default-token-list'
 import { Currency, TradeType } from '@uniswap/sdk-core'
-import { Field, SupportedChainId, SwapWidget, defaultTheme, lightTheme, darkTheme, green, espresso, coal, toy, smart, classic } from '@uniswap/widgets'
+import { Field, SupportedChainId, SwapWidget, defaultTheme, lightTheme, darkTheme, green, espresso, coal, toy, smart, classic, scifi, Theme } from '@uniswap/widgets'
 import Row from 'components/Row'
 import { useCallback, useMemo, useState } from 'react'
 
@@ -41,6 +41,25 @@ function Fixture() {
         }),
         []
     )
+
+    const themes: Record<string, Theme> = {
+        'default': defaultTheme,
+        'light': lightTheme,
+        'dark': darkTheme,
+        'green': green,
+        'espresso': espresso,
+        'coal': coal,
+        'toy': toy,
+        'smart': smart,
+        'classic': classic,
+        'sci-fi': scifi
+    }
+
+    const theme = useOption('theme', {
+        options: themes,
+        defaultValue: 'default'
+    })
+
     const inputToken = useOption('input', {
         options: currencies,
         defaultValue: SupportedChainId[SupportedChainId.MAINNET],
@@ -88,6 +107,7 @@ function Fixture() {
                 value={value}
                 provider={connector}
                 tokenList={tokens}
+                theme={theme}
                 {...eventHandlers}
                 onAmountChange={onAmountChange}
             />

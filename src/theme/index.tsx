@@ -194,6 +194,25 @@ export const classic: Theme = {
   borderRadius: defaultBorderRadius,
 }
 
+export const scifi: Theme = {
+  primary: '#42ecf5',
+  secondary: '#42ecf5',
+  interactive: '#244454',
+  container: '#20252e',
+  module: '#0e0f12',
+  outline: '#42ecf5',
+  dialog: '#20252e',
+  onAccent: '#42ecf5',
+  onInteractive: '#42ecf5',
+  fontFamily: 'Verdana',
+  borderRadius: {
+    large: 0.6,
+    medium: 0.5,
+    small: 0.25,
+    xsmall: 0,
+  },
+}
+
 export function useSystemTheme() {
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)')
   const [systemTheme, setSystemTheme] = useState(prefersDark.matches ? darkTheme : lightTheme)

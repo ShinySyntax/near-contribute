@@ -73,7 +73,7 @@ export type {
 } from 'state/transactions'
 export { TransactionType } from 'state/transactions'
 export type { Theme } from 'theme'
-export { darkTheme, defaultTheme, lightTheme, green, espresso, coal, toy, smart, classic } from 'theme'
+export { darkTheme, defaultTheme, lightTheme, green, espresso, coal, toy, smart, classic, scifi } from 'theme'
 export { invertTradeType, toTradeType } from 'utils/tradeType'
 
 export type SwapWidgetProps = SwapProps & WidgetProps
