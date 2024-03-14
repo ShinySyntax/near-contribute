@@ -12,13 +12,17 @@ The Swap Widget bundles the whole swapping experience into a single React compon
 
 In this version it was updated with additional built-in theme styles that can plugged-in.
  
- ## Theme Previews
- ### Default Theme (Light)
+## Theme Previews
+### Default Theme (Light)
  
 ![swap widget screenshot](./screenshot/Screenshot_2.png)
 ![swap widget screenshot](./screenshot/Screenshot_1.png)
 
-  
+## Theme Previews
+### Default Theme (Dark)
+
+![swap widget screenshot](./screenshot/Screenshot_4.png)
+![swap widget screenshot](./screenshot/Screenshot_3.png)
 
 You can customize the theme (colors, fonts, border radius, and more) to match the style of your application. You can also configure your own default token list and optionally set a convenience fee on swaps executed through the widget on your site.
 
