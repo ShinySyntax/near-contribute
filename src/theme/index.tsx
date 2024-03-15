@@ -188,6 +188,8 @@ export const classic: Theme = {
   container: '#DADADA',
   module: '#FFF',
   accent: '#0018F4',
+
+  onInteractive: '#ffffff',
   outline: '#000',
   dialog: '#FFF',
   fontFamily: 'Comic Sans MS',
@@ -202,8 +204,10 @@ export const scifi: Theme = {
   module: '#0e0f12',
   outline: '#42ecf5',
   dialog: '#20252e',
-  accent: '#379ea3',
-  onAccent: '#42ecf5',
+  accentSoft: '#244454',
+  accent: '#42ecf5',
+  
+  onAccent: '#ffffff',
   onInteractive: '#42ecf5',
   fontFamily: 'Verdana',
   deepShadow: 'hsla(0, 0%, 0%, 0.32), hsla(0, 0%, 0%, 0.24), hsla(0, 0%, 0%, 0.24)',
