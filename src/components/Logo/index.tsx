@@ -35,7 +35,6 @@ export type LogoBasePops = {
   style?: React.CSSProperties
 }
 
-// TODO(cartcrom): add prop to optionally render an L2Icon w/ the logo
 /**
  * Renders an image by prioritizing a list of sources, and then eventually a fallback triangle alert
  */
